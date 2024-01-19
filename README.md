@@ -16,6 +16,3 @@
 ![image](https://github.com/devdasamale/Crypto_trading_website_blockchain/assets/100094659/43bf9573-2708-4ecc-b7d3-1515708119a2)
 
 
-# Contributors
-
-@devdasamale
