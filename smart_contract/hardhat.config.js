@@ -1,13 +1,13 @@
-//https://eth-goerli.g.alchemy.com/v2/uWtf5d8Owf8VF5MpgQjq_CtlatuhYak4
+// https://eth-sepolia.g.alchemy.com/v2/wb0em02FZisHyhifkXjecV7wzR1ywaAn
 
-require('@nomiclabs/hardhat-waffle');
+require('@nomicfoundation/hardhat-toolbox');
 
 module.exports = {
-  solidity: '0.8.0' ,
-  networks:{
-    goerli: {
-      url: 'https://eth-goerli.g.alchemy.com/v2/uWtf5d8Owf8VF5MpgQjq_CtlatuhYak4',
-      accounts: [ '8186a5e2962c6d685977ff79f595d1c3e11e7525b2932583b2df121dba9c2f83' ]
-    }
+  solidity: "0.8.0",
+  networks: {
+  sepolia : {
+      url: `https://eth-sepolia.g.alchemy.com/v2/wb0em02FZisHyhifkXjecV7wzR1ywaAn`,
+      accounts: [`c04279956751ea636d8b04f44f72b7c3a487b7e4ab887623a55bcb5b252ca2d9`]
+    },
   }
-}
+};
